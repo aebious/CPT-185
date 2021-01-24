@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class FrmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,117 +22,117 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.LblApplicationTitle = New System.Windows.Forms.Label()
+        Me.LblStudentsWelcome = New System.Windows.Forms.Label()
+        Me.CmdJobDetails = New System.Windows.Forms.Button()
+        Me.LblDate = New System.Windows.Forms.Label()
+        Me.LblLocation = New System.Windows.Forms.Label()
+        Me.LblRoom101 = New System.Windows.Forms.Label()
+        Me.CmdExit = New System.Windows.Forms.Button()
+        Me.PnlImages = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
-        'Label1
+        'LblApplicationTitle
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(64, 23)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(209, 35)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Tech Job Fair"
+        Me.LblApplicationTitle.AutoSize = True
+        Me.LblApplicationTitle.Font = New System.Drawing.Font("Tahoma", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblApplicationTitle.Location = New System.Drawing.Point(64, 23)
+        Me.LblApplicationTitle.Name = "LblApplicationTitle"
+        Me.LblApplicationTitle.Size = New System.Drawing.Size(209, 35)
+        Me.LblApplicationTitle.TabIndex = 0
+        Me.LblApplicationTitle.Text = "Tech Job Fair"
         '
-        'Label2
+        'LblStudentsWelcome
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(80, 74)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(174, 18)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "All Students are Welcome"
+        Me.LblStudentsWelcome.AutoSize = True
+        Me.LblStudentsWelcome.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblStudentsWelcome.Location = New System.Drawing.Point(80, 74)
+        Me.LblStudentsWelcome.Name = "LblStudentsWelcome"
+        Me.LblStudentsWelcome.Size = New System.Drawing.Size(174, 18)
+        Me.LblStudentsWelcome.TabIndex = 1
+        Me.LblStudentsWelcome.Text = "All Students are Welcome"
         '
-        'Button1
+        'CmdJobDetails
         '
-        Me.Button1.Location = New System.Drawing.Point(95, 134)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(137, 32)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "View Job Fair Details"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.CmdJobDetails.Location = New System.Drawing.Point(95, 134)
+        Me.CmdJobDetails.Name = "CmdJobDetails"
+        Me.CmdJobDetails.Size = New System.Drawing.Size(137, 32)
+        Me.CmdJobDetails.TabIndex = 2
+        Me.CmdJobDetails.Text = "View Job Fair Details"
+        Me.CmdJobDetails.UseVisualStyleBackColor = True
         '
-        'Label3
+        'LblDate
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(116, 200)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(91, 18)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "May 2, 2016"
+        Me.LblDate.AutoSize = True
+        Me.LblDate.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblDate.Location = New System.Drawing.Point(116, 200)
+        Me.LblDate.Name = "LblDate"
+        Me.LblDate.Size = New System.Drawing.Size(91, 18)
+        Me.LblDate.TabIndex = 3
+        Me.LblDate.Text = "May 2, 2016"
         '
-        'Label4
+        'LblLocation
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(80, 218)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(153, 18)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Located in London Hall"
+        Me.LblLocation.AutoSize = True
+        Me.LblLocation.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblLocation.Location = New System.Drawing.Point(80, 218)
+        Me.LblLocation.Name = "LblLocation"
+        Me.LblLocation.Size = New System.Drawing.Size(153, 18)
+        Me.LblLocation.TabIndex = 4
+        Me.LblLocation.Text = "Located in London Hall"
         '
-        'Label5
+        'LblRoom101
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(128, 236)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(70, 18)
-        Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Room101"
+        Me.LblRoom101.AutoSize = True
+        Me.LblRoom101.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblRoom101.Location = New System.Drawing.Point(128, 236)
+        Me.LblRoom101.Name = "LblRoom101"
+        Me.LblRoom101.Size = New System.Drawing.Size(70, 18)
+        Me.LblRoom101.TabIndex = 5
+        Me.LblRoom101.Text = "Room101"
         '
-        'Button2
+        'CmdExit
         '
-        Me.Button2.Location = New System.Drawing.Point(95, 296)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(137, 31)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Exit Window"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.CmdExit.Location = New System.Drawing.Point(95, 296)
+        Me.CmdExit.Name = "CmdExit"
+        Me.CmdExit.Size = New System.Drawing.Size(137, 31)
+        Me.CmdExit.TabIndex = 6
+        Me.CmdExit.Text = "Exit Window"
+        Me.CmdExit.UseVisualStyleBackColor = True
         '
-        'Panel1
+        'PnlImages
         '
-        Me.Panel1.Location = New System.Drawing.Point(373, 23)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 314)
-        Me.Panel1.TabIndex = 7
+        Me.PnlImages.Location = New System.Drawing.Point(373, 23)
+        Me.PnlImages.Name = "PnlImages"
+        Me.PnlImages.Size = New System.Drawing.Size(200, 314)
+        Me.PnlImages.TabIndex = 7
         '
-        'Form1
+        'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(613, 364)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.ClientSize = New System.Drawing.Size(613, 348)
+        Me.Controls.Add(Me.PnlImages)
+        Me.Controls.Add(Me.CmdExit)
+        Me.Controls.Add(Me.LblRoom101)
+        Me.Controls.Add(Me.LblLocation)
+        Me.Controls.Add(Me.LblDate)
+        Me.Controls.Add(Me.CmdJobDetails)
+        Me.Controls.Add(Me.LblStudentsWelcome)
+        Me.Controls.Add(Me.LblApplicationTitle)
+        Me.Name = "FrmMain"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents LblApplicationTitle As Label
+    Friend WithEvents LblStudentsWelcome As Label
+    Friend WithEvents CmdJobDetails As Button
+    Friend WithEvents LblDate As Label
+    Friend WithEvents LblLocation As Label
+    Friend WithEvents LblRoom101 As Label
+    Friend WithEvents CmdExit As Button
+    Friend WithEvents PnlImages As Panel
 End Class

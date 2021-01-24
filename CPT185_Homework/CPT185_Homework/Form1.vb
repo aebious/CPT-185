@@ -1,13 +1,13 @@
-﻿Public Class Form1
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+﻿Public Class FrmMain
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles LblApplicationTitle.Click
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CmdJobDetails.Click
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles CmdExit.Click
 
     End Sub
 End Class
