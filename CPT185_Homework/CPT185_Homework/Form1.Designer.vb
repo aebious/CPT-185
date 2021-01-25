@@ -121,7 +121,6 @@ Partial Class FrmMain
         Me.Controls.Add(Me.lblStudentsWelcome)
         Me.Controls.Add(Me.lblApplicationTitle)
         Me.Name = "FrmMain"
-        Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
